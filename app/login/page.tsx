@@ -55,7 +55,7 @@ const LoginPage = () => {
             className='border-2 outline-none border-gray-500 rounded-md px-1 py-1' />
         </div>
         <button onClick={submitHandler}  className={`${disable ? "bg-gray-400 cursor-not-allowed" : "bg-blue-400"} w-full py-1 my-2 rounded-lg text-white`}>Login</button>
-        <p className='mt-3'>Don't have an account? <Link href={"/signup"} className='font-bold'>SIGNUP</Link></p>
+        <p className='mt-3'>Don't have an account? <Link href={"signup"} className='font-bold'>SIGNUP</Link></p>
       </div>
 
     </div>
