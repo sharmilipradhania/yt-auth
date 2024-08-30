@@ -3,7 +3,7 @@
 import React, { useEffect, useState } from 'react';
 import Link from 'next/link';
 import axios from 'axios';
-import { useRouter } from 'next/navigation';
+import {useRouter} from 'next/navigation';
 import toast from 'react-hot-toast';
 
 

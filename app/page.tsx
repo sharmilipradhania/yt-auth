@@ -5,7 +5,7 @@ import { useRouter } from 'next/navigation';
 import React from 'react'
 import toast from 'react-hot-toast';
 
-function page() {
+function Page() {
   const router = useRouter();
   const logoutHandler = async() => {
     
@@ -24,4 +24,4 @@ function page() {
     </div>
   )
 }
-export default page;
+export default Page;
